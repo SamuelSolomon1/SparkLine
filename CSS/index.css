@@ -1,0 +1,39 @@
+
+#navcolor{
+    /* background-color: rgba(255, 148, 148) !important; */
+    background-color: rgb(30, 32, 34) !important;
+    font-size: 150%;
+    font-family: serif;
+}
+.nav-link{
+color: #fff !important;
+}
+body{
+/* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;  */
+padding-top: 75px;
+font-family: serif;
+background-color: #52616B !important;
+}
+
+a{
+text-decoration: none;
+}
+/* nav bar spacing */
+.nav-spacing{
+padding: 30px;
+}
+
+
+
+footer{
+    text-align: center;
+    border: 2px ;
+    padding-top: 50px;
+    color: #fff;
+    background-color:rgb(30, 32, 34);
+  
+}
+
