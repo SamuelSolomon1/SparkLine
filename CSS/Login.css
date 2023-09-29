@@ -24,13 +24,17 @@
     line-height: 19px;
     text-align: left;
     margin: 0 auto;
-    width: 300px; 
+    width: 350px; 
     
     
 }
 a{
     text-decoration: none !important;
 }
+.font {
+  margin-top: 20px;
+}
+
 .font2 {
     margin-top: 14px;
 }
