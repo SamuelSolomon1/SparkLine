@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Checkout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section>
+        <div class="logo-box">
+          <a href="index.html" class="logo-size">
+          <img src="images/logo/SparkLineLogo.png" alt="This contains SparkLine Logo" height="59px" /></a>
+        </div>
+        <br /><br />
+      </section>
+
+<div class="grid-text-center">
+
+    <div class="g-col-4 g-start-6">
+        <div class="box1">
+        <h1>Add a new address</h1>
+    
+        <div class="font">Your name</div>
+        <input type="text" name="fullname" placeholder="First and Last name" required>
+    
+        <div class="font2">Mobile number or email</div>
+        <input autocomplete="email" type="text" name="email" required>
+    
+        <div class="font3">Password</div>
+        <input type="password" name="password" placeholder="At least 8 characters"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long">
+    
+        <div class="font4">Re-enter password</div>
+        <input type="password" name="passwordCheck"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase letter, one lowercase letter, and be at least 8 characters long"><br>
+    
+        <button type="submit" id="newAccount">Create my account</button>
+        </div>
+    </div>
+
+
+    <div class="g-col-3 g-start-2">
+        <div class="box2">
+
+            <h1>Orders</h1>
+            <p>hadgasufdgaosub</p>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>CATEGORIES</h4>
+          <p>
+            Keyboards <br />Mouse <br />
+            Headset
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>INFORMATION</h4>
+          <p>About Us <br />Privacy Policy <br />Contact Us</p>
+        </div>
+        <div class="col-md-4">
+          <a href=""
+            ><img
+              src="images/logo/Facebook_Logo.png"
+              alt="This contains Facebook logo"
+              height="50px"
+          /></a>
+          <a href=""
+            ><img
+              src="images/logo/Twitter_logo.png"
+              alt="This contains Twitter logo"
+              height="50px"
+          /></a>
+          <a href=""
+            ><img
+              src="images/logo/YouTube_logo.png"
+              alt="This contains Youtube logo"
+              height="50px"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <p>&copy;Sparkline. All right reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
