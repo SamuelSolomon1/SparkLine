@@ -1,98 +1,381 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-<!-- navbar start -->
-    <nav class="navbar  fixed-top navbar-expand-xl xl- bg-light "id="navcolor" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html" class="logo-size">
-        <img src="images/logo/SparkLineLogo.png" alt="This contains logo of SparkLine logo" width="200"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-        <!-- Remove .ms-auto or .me-auto class and add .justify-content-center next to the .navbar-collapse to center the content.
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <!-- navbar dropdown button starts-->  
-                      <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Products
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Gaming Keyboards</a></li>
-                      <li><a class="dropdown-item" href="#">Gaming Mouse</a></li>
-                      <li><a class="dropdown-item" href="#">Gaming Headsets</a></li>
-                    </ul>
-                  </li>
-              <!-- navbar dropdown button ends -->
-                <a class="nav-link" href="#"><span class="nav-spacing">Shop</span></a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="#"><span class="nav-spacing">Community</span></a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="Register.html"><span class="nav-spacing">Account</span></a>
-                </li>
-              </ul>
-        <!-- <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button> -->
-        </form>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/shop.css">
+    <style>
+                
+#navcolor{
+  /* background-color: rgba(255, 148, 148) !important; */
+  background-color: rgb(30, 32, 34) !important;
+  font-size: 190%;
+  font-family: serif;
+}
+/* burger menu change color */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 98, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler{
+  border: 1px solid rgb(203, 98, 7) !important;
+}
+/* dropdown menu color */
+.dropdown-menu {
+  background-color: rgb(30, 32, 34) !important;
+  border: none;
+}
+.dropdown-item {
+  color: #fff !important;
+  font-size: 190%;
+}
+.dropdown-item:hover{
+  background-color: #000000 !important;
+}
+/* dropdown menu color ends */
+
+/* changing navbar font color */
+.nav-link{
+color: #fff !important;
+}
+/* body */
+body{
+/* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;  */
+padding-top: 63px;
+font-family: serif;
+background-color: #000000 !important;
+}
+/* hyperlink */
+a{
+text-decoration: none;
+}
+/* nav bar spacing */
+.nav-spacing{
+padding: 80px;
+}
+/* box-border products start */
+#box-border{
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+}
+/* box-products */
+.box-products{
+  /* border: 2px solid red; */
+  padding: 30px;
+}
+/* box-border hover */
+#box-border:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(203, 98, 7);
+      transition: 0.2s;
+      transform: scale(1.03);
+}
+#box-border2{
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.img-sizing{
+  width: 1500px; 
+  height: 1121px;
+  object-fit: cover;
+}
+/* box-border products end */
+/* blog post */
+#box{
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 80px;
+}
+.border-blog{
+  color: #fff;
+}
+/* border-blog */
+#border-blog{
+  color: #fff;
+  /* border: 2px solid red; */
+  padding: 20px;
+}
+
+/* blog button */
+.btn{
+  background-color: rgb(203, 98, 7) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+
+
+/* scroll up */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border: none;
+}
+/* scroll up ends */
+footer{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color:rgb(30, 32, 34);
+
+}
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar  fixed-top navbar-expand-xl navbar-fixed-top" id="navcolor" data-bs-theme="dark">
+                <div class="container-fluid">
+                    
+                    <a class="navbar-brand" href="index.html" class="logo-size">
+            
+                        <img src="images/logo/SparkLineLogo.png" alt="This contains logo of SparkLine logo" width="200"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse justify-content-center">
+                        <form class="d-flex"> <!-- Centered Search Bar -->
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                        <!-- Add to Cart Icon -->
+                        <!-- <a href="#" class="nav-link ">
+                            <i class="fas fa-shopping-cart"></i> 
+                        </a> -->
+                    </div>
+                </div>
+            </nav>
+    <!-- navbar start -->
+            
+        <nav class="navbar navbar-expand-xl" id="navcolor"  data-bs-theme="dark">
+        <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+            <!-- Remove .ms-auto or .me-auto class and add .justify-content-center next to the .navbar-collapse to center the content.
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <!-- navbar dropdown button starts-->  
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Gaming Keyboards</a></li>
+                        <li><a class="dropdown-item" href="#">Gaming Mouse</a></li>
+                        <li><a class="dropdown-item" href="#">Gaming Headsets</a></li>
+                        </ul>
+                    </li>
+                <!-- navbar dropdown button ends -->
+                    <a class="nav-link" href="#"><span class="nav-spacing">Shop</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="nav-spacing">Community</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Register.html"><span class="nav-spacing">Account</span></a>
+                    </li>
+                </ul>
+            <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+        </div>
+        </div>
+    </nav>
+    </header>
+    <!-- navbar ends -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- Card Section -->
+                <div class="col-md-8">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <p class="card-text">$10.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="1" data-name="Product 1" data-price="10.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 2 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 2</h5>
+                                    <p class="card-text">$20.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="2" data-name="Product 2" data-price="20.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 3 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 3</h5>
+                                    <p class="card-text">$30.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="3" data-name="Product 3" data-price="30.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 4 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 4</h5>
+                                    <p class="card-text">$40.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="4" data-name="Product 4" data-price="40.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 5 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 5</h5>
+                                    <p class="card-text">$50.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="5" data-name="Product 5" data-price="50.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 6 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 6</h5>
+                                    <p class="card-text">$60.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="6" data-name="Product 6" data-price="60.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 7 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 7</h5>
+                                    <p class="card-text">$70.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="7" data-name="Product 7" data-price="70.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 8 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 8</h5>
+                                    <p class="card-text">$80.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="8" data-name="Product 8" data-price="80.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Card 9 -->
+                         <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <!-- Card Image -->
+                                <img src="image1.jpg" class="card-img-top" alt="Product 9">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product 9</h5>
+                                    <p class="card-text">$90.00</p>
+                                    <button class="btn btn-primary add-to-cart" data-id="9" data-name="Product 9" data-price="90.00">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- Repeat similar structure for more cards -->
+                    </div>
+                </div>
+                
+        <!-- Cart Section -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">Cart</div>
+          <ul class="list-group list-group-flush" id="cart-items">
+            <!-- Cart items will be displayed here -->
+          </ul>
+          <div class="card-footer">Total: <span id="total-price">$0.00</span></div>
+        </div>
       </div>
     </div>
-  </nav>
-</header>
-<!-- navbar ends -->
-<main>
-
-</main>
-
-
-
-<!-- scroll up start -->
-<button
-        type="button"
-        class="btn btn-danger btn-floating btn-lg"
-        id="btn-back-to-top"
-        >
-        <i class="fa-solid fa-arrow-up"></i>
-</button>
-<!-- scroll up ends -->
-<!-- footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h4>CATEGORIES</h4>
-                <p>Keyboards <br>Mouse <br> Headset</p>
-            </div>
-            <div class="col-md-4">
-                <h4>INFORMATION</h4>
-                <p>About Us <br>Privacy Policy <br>Contact Us</p>
-            </div>
-            <div class="col-md-4">
-            <a href=""><img src="images/logo/Facebook_Logo.png" alt="This contains Facebook logo" height="50px"></a>
-            <a href=""><img src="images/logo/Twitter_logo.png" alt="This contains Twitter logo" height="50px"></a>
-            <a href=""><img src="images/logo/YouTube_logo.png" alt="This contains Youtube logo" height="50px"></a>
+  </div>
+    </main>
+    <!-- scroll up start -->
+    <button
+            type="button"
+            class="btn btn-danger btn-floating btn-lg"
+            id="btn-back-to-top"
+            >
+            <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- scroll up ends -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>CATEGORIES</h4>
+                    <p>Keyboards <br>Mouse <br> Headset</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>INFORMATION</h4>
+                    <p>About Us <br>Privacy Policy <br>Contact Us</p>
+                </div>
+                <div class="col-md-4">
+                <a href=""><img src="images/logo/Facebook_Logo.png" alt="This contains Facebook logo" height="50px"></a>
+                <a href=""><img src="images/logo/Twitter_logo.png" alt="This contains Twitter logo" height="50px"></a>
+                <a href=""><img src="images/logo/YouTube_logo.png" alt="This contains Youtube logo" height="50px"></a>
+                </div>
             </div>
         </div>
-    </div>
-    <p>&copy;Sparkline. All right reserved</p>
-</footer>
-    <!-- script -->
-    <script src="JS/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!-- font script -->
-    <script src="https://kit.fontawesome.com/db2451deb4.js" crossorigin="anonymous"></script>
-</body>
-</html>
+        <p>&copy;Sparkline. All right reserved</p>
+    </footer>
+        <!-- script -->
+        <script src="/JS/shop.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- font script -->
+        <script src="https://kit.fontawesome.com/db2451deb4.js" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>

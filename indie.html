@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        
+#navcolor{
+    /* background-color: rgba(255, 148, 148) !important; */
+    background-color: rgb(30, 32, 34) !important;
+    font-size: 190%;
+    font-family: serif;
+}
+/* burger menu change color */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 98, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler{
+    border: 1px solid rgb(203, 98, 7) !important;
+}
+/* dropdown menu color */
+.dropdown-menu {
+    background-color: rgb(30, 32, 34) !important;
+    border: none;
+}
+.dropdown-item {
+    color: #fff !important;
+    font-size: 190%;
+}
+.dropdown-item:hover{
+    background-color: #000000 !important;
+}
+/* dropdown menu color ends */
+
+/* changing navbar font color */
+.nav-link{
+color: #fff !important;
+}
+/* body */
+body{
+/* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;  */
+padding-top: 63px;
+font-family: serif;
+background-color: #000000 !important;
+}
+/* hyperlink */
+a{
+text-decoration: none;
+}
+/* nav bar spacing */
+.nav-spacing{
+padding: 80px;
+}
+/* box-border products start */
+#box-border{
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 30px;
+    border-radius: 20px;
+}
+/* box-products */
+.box-products{
+    /* border: 2px solid red; */
+    padding: 30px;
+}
+ /* box-border hover */
+ #box-border:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(203, 98, 7);
+        transition: 0.2s;
+        transform: scale(1.03);
+  }
+#box-border2{
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.img-sizing{
+    width: 1500px; 
+    height: 1121px;
+    object-fit: cover;
+}
+/* box-border products end */
+/* blog post */
+#box{
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 80px;
+}
+.border-blog{
+    color: #fff;
+}
+/* border-blog */
+#border-blog{
+    color: #fff;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+/* blog button */
+.btn{
+    background-color: rgb(203, 98, 7) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+
+
+/* scroll up */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border: none;
+  }
+/* scroll up ends */
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:rgb(30, 32, 34);
+  
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar  fixed-top navbar-expand-xl navbar-fixed-top" id="navcolor" data-bs-theme="dark">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="index.html" class="logo-size">
+        
+                    <img src="images/logo/SparkLineLogo.png" alt="This contains logo of SparkLine logo" width="200"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="navbar-collapse justify-content-center">
+                    <form class="d-flex"> <!-- Centered Search Bar -->
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <!-- Add to Cart Icon -->
+                    <!-- <a href="#" class="nav-link ">
+                        <i class="fas fa-shopping-cart"></i> 
+                    </a> -->
+                </div>
+            </div>
+        </nav>
+<!-- navbar start -->
+        
+    <nav class="navbar navbar-expand-xl" id="navcolor"  data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+        <!-- Remove .ms-auto or .me-auto class and add .justify-content-center next to the .navbar-collapse to center the content.
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <!-- navbar dropdown button starts-->  
+                      <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Gaming Keyboards</a></li>
+                      <li><a class="dropdown-item" href="#">Gaming Mouse</a></li>
+                      <li><a class="dropdown-item" href="#">Gaming Headsets</a></li>
+                    </ul>
+                  </li>
+              <!-- navbar dropdown button ends -->
+                <a class="nav-link" href="#"><span class="nav-spacing">Shop</span></a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#"><span class="nav-spacing">Community</span></a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="Register.html"><span class="nav-spacing">Account</span></a>
+                </li>
+              </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+<!-- navbar ends -->
+
+<main>
+
+</main>
+
+
+
+<!-- scroll up start -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fa-solid fa-arrow-up"></i>
+</button>
+<!-- scroll up ends -->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CATEGORIES</h4>
+                <p>Keyboards <br>Mouse <br> Headset</p>
+            </div>
+            <div class="col-md-4">
+                <h4>INFORMATION</h4>
+                <p>About Us <br>Privacy Policy <br>Contact Us</p>
+            </div>
+            <div class="col-md-4">
+            <a href=""><img src="images/logo/Facebook_Logo.png" alt="This contains Facebook logo" height="50px"></a>
+            <a href=""><img src="images/logo/Twitter_logo.png" alt="This contains Twitter logo" height="50px"></a>
+            <a href=""><img src="images/logo/YouTube_logo.png" alt="This contains Youtube logo" height="50px"></a>
+            </div>
+        </div>
+    </div>
+    <p>&copy;Sparkline. All right reserved</p>
+</footer>
+    <!-- script -->
+    <script>
+        //Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- font script -->
+    <script src="https://kit.fontawesome.com/db2451deb4.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>
