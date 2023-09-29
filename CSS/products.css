@@ -43,33 +43,44 @@ main{
     /* flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column; */
+
+    
 }
 
-
+main .wrap{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
 
 .wrap{
     max-width: 1500px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between;
+    display: flex; */
 }
 
 .wrap .card{
-    width: calc(30% - 15px);
+    /* width: calc(30% - 15px); */ /*for 3 columns only and 1 row */
+
     background:  rgb(30, 32, 34);
     color: #fff;
     border-radius: 3px;
     
 
+    
     overflow: hidden;
    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.15);
 }
 
 .wrap .card img{
     width: 100%;
+    height: 100%;
     border-radius: 3px;
 
     transition: all 0.3s ease;
+
+    object-fit: cover;
 }
 
 .card:hover img{
@@ -100,7 +111,7 @@ main{
 }
 
 .content .buttons button{
-    width: 100%;
+    width: 48%;
     padding: 10px 0;
     font-size: 20px;
     font-weight: 500;

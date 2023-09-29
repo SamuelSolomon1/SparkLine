@@ -25,7 +25,7 @@ a,a:visited,a:active,.a:link {
     line-height: 19px;
     text-align: left;
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
 }
 
 .font{
@@ -61,6 +61,7 @@ a,a:visited,a:active,.a:link {
     height: 40px;
     padding-bottom: 30px !important;
 }
+
 /* form error starts */
 #fullName_error,#email_error,#pass_error,#pass2_error{
     display: none;
