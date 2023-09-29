@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/Register.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <main>
+      <section>
+    <div class="logo-box">
+      <a href="index.html" class="logo-size">
+      <img src="images/logo/SparkLineLogo.png" alt="This contains SparkLine Logo" height="59px" /></a>
+    </div><br /><br />
+  </section>
+    <div class="register form">
+      <h1 class="label">Create account</h1>
+      <hr>
+      <!-- form starts -->
+      <form
+        action="index.html"
+        class="login-form"
+        method="post"
+        name="form"
+        onsubmit="return validateForm()"
+      >
+        <div class="font">Your name</div>
+        <input
+          type="text"
+          name="fullName"
+          placeholder="First and Last name"
+          id="fullName"
+          required
+        />
+        <div id="fullName_error" class="errorBox">Enter your name</div>
+        <!-- Email -->
+        <div class="font2">Mobile number or email</div>
+        <input
+          autocomplete="off"
+          type="text"
+          name="email"
+          id="email"
+          required
+        />
+        <div id="email_error" class="errorBox">
+          Wrong or Invalid email address or mobile phone number. Please correct
+          and try again.
+        </div>
+        <!-- Password -->
+        <div class="font font2 font3">Password</div>
+        <input
+          type="password"
+          name="password"
+          placeholder="At least 8 characters"
+          id="password"
+          required
+        />
+        <div id="pass_error" class="errorBox">Please fill up your Password</div>
+        <!-- Re-enter password -->
+        <div class="font font2 font4">Re-enter password</div>
+        <input type="password" name="password2" id="password2" required />
+        <div id="pass2_error" class="errorBox">
+          Please re-enter your Password
+        </div>
+        <br />
+        <button type="submit" id="newAccount" class="btn">
+          Create my account
+        </button><br><br>
+        <div>Already have account? <a href="Login.html">log-in here </a> </div>
+      </form>
+    </div>
+  </main><br><br>
+
+   <!-- footer -->
+   <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>CATEGORIES</h4>
+          <p>
+            Keyboards <br />Mouse <br />
+            Headset
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>INFORMATION</h4>
+          <p>About Us <br />Privacy Policy <br />Contact Us</p>
+        </div>
+        <div class="col-md-4">
+          <a href=""
+            ><img
+              src="images/logo/Facebook_Logo.png"
+              alt="This contains Facebook logo"
+              height="50px"
+          /></a>
+          <a href=""
+            ><img
+              src="images/logo/Twitter_logo.png"
+              alt="This contains Twitter logo"
+              height="50px"
+          /></a>
+          <a href=""
+            ><img
+              src="images/logo/YouTube_logo.png"
+              alt="This contains Youtube logo"
+              height="50px"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <p>&copy;Sparkline. All right reserved</p>
+  </footer>
+    <!-- scripts -->
+    <script src="JS/Register.js"></script>
+     <!-- bootstrap scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
