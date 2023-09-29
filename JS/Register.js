@@ -27,7 +27,7 @@ function validateForm() {
         email.focus();
         isValid = false;
     } else {
-        email.style.border = "1px solid silver";
+        email.style.border = "1px solid lightgray";
         email_error.style.display = "none";
     }
 
@@ -37,7 +37,7 @@ function validateForm() {
         password.focus();
         isValid = false;
     } else {
-        password.style.border = "1px solid silver";
+        password.style.border = "1px solid lightgray";
         pass_error.style.display = "none";
     }
 
@@ -47,7 +47,7 @@ function validateForm() {
         password2.focus();
         isValid = false;
     } else {
-        password2.style.border = "1px solid silver";
+        password2.style.border = "1px solid lightgray";
         pass2_error.style.display = "none";
     }
 
