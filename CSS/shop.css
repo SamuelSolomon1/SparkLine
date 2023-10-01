@@ -1,9 +1,9 @@
-        
+               
 #navcolor{
   /* background-color: rgba(255, 148, 148) !important; */
   background-color: rgb(30, 32, 34) !important;
   font-size: 190%;
-  font-family: serif;
+  font-family: Verdana;
 }
 /* burger menu change color */
 .navbar-toggler-icon {
@@ -36,13 +36,14 @@ body{
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;  */
-padding-top: 63px;
-font-family: serif;
+padding-top: 69px;
+font-family: Verdana;
 background-color: #000000 !important;
 }
 /* hyperlink */
 a{
 text-decoration: none;
+color: #fff;
 }
 /* nav bar spacing */
 .nav-spacing{
@@ -110,6 +111,8 @@ padding: 80px;
   background-color: rgb(203, 98, 7) !important;
   color: #fff !important;
   border: none !important;
+  margin-bottom: 10px !important;
+
 }
 
 
@@ -131,4 +134,56 @@ footer{
   background-color:rgb(30, 32, 34);
 
 }
+/* scale down the card */
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit:scale-down;
+}
 
+.card-body{
+  background-color: rgb(30, 32, 34);
+  color: rgb(203, 98, 7);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+}
+.card{
+  border: none;
+  border-radius: 10px;
+  /* border bottom to remove excess border */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-header, .card-footer{
+  background-color: rgb(30, 32, 34);
+  color: #fff;
+  font-size: 25px;
+}
+
+#box-contain{
+  /* border: 2px solid red; */
+  color: #fff;
+  /* background-color: rgb(203, 98, 7); */
+  background-image: linear-gradient(to right, rgb(248, 157, 78,0.1), rgba(203, 98, 7,1));
+  /* background-image: url(https://media.tenor.com/6x4DXggx_i8AAAAM/orange-design.gif); */
+  backdrop-filter: blur(8px);
+  text-align: center;
+  padding-top: 20px;
+}
+.font-box{
+  font-size: 60px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.font-box2{
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.box-font{
+  margin: 20px;
+  
+}
