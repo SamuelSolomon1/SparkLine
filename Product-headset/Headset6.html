@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="Headset.css">
+<style>
+    
+</style>
+</head>
+<body>
+    <header> 
+<!-- navbar start -->
+    <nav class="navbar navbar-expand-xl fixed-top" id="navcolor"  data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" class="logo-size">
+            <img src="images/logo/SparkLineLogo.png" alt="This contains logo of SparkLine logo" width="200"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+        <!-- Remove .ms-auto or .me-auto class and add .justify-content-center next to the .navbar-collapse to center the content.
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                <!-- navbar dropdown button starts-->  
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Gaming-keyboards.html">Gaming Keyboards</a></li>
+                    <li><a class="dropdown-item" href="Gaming-Mouse.html">Gaming Mouse</a></li>
+                    <li><a class="dropdown-item" href="Gaming-Headset.html">Gaming Headsets</a></li>
+                    </ul>
+                </li>
+            <!-- navbar dropdown button ends -->
+                <a class="nav-link" href="Shop.html"><span class="nav-spacing">Shop</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><span class="nav-spacing">Community</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Register.html"><span class="nav-spacing">Account</span></a>
+                </li>
+            </ul>
+        <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button> -->
+        </form>
+              <form class="d-flex" role="search">
+    <input class="form-control me-2" id="search-input" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+    </div>
+    </div>
+</nav>
+</header>
+<!-- navbar ends -->
+<main>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="product-images box-left">
+                    <img id="main-image" src="/images/Headset/MW50+ On Plus/MW50+ On Plus.jpg" alt="This contains MW50+ On" class="img-fluid box-img-top">
+                    <div class="row mt-2">
+                        <div class="col-4">
+                            <img src="/images/Headset/MW50+ On Plus/1.jpg" alt="This contains MW50+ On" class="img-fluid box-img-top" 
+                            onclick="changeImage('/images/Headset/MW50+ On Plus/1.jpg')">
+                        </div>
+                        <div class="col-4">
+                            <img src="/images/Headset/MW50+ On Plus/2.jpg" alt="This contains MW50+ On" class="img-fluid box-img-top"
+                             onclick="changeImage('/images/Headset/MW50+ On Plus/2.jpg')">
+                        </div>
+                        <div class="col-4">
+                            <img src="/images/Headset/MW50+ On Plus/44.jpg" alt="This contains MW50+ On" class="img-fluid box-img-top" 
+                            onclick="changeImage('/images/Headset/MW50+ On Plus/44.jpg')">
+                        </div>
+                        
+                    </div>
+                </div><br><br><br>
+                <a href="Shop.html"><button class="btn btn-primary" id="btn-size">Buy Now</button></a>
+            </div>
+            <div class="col-md-6 fontColor">
+                <h1>MW50+ On Plus Over Ear Wireless Headphones Silver/Black (Master & Dynamic)</h1>
+                <p>Price: $249.00</p>
+                <p>Rating: ★★★★☆</p>
+                <p>Availability: In Stock</p>
+                <div class="product-description">
+                    <p>Details and Specifications: </p>
+                        <p>MW50+ On Plus Over Ear Wireless Headphones Silver/Black<br>
+                            Premium exterior cowhide accents with soft lambskin on headband and ear pads<br>
+                            On-ear and over-ear Memory foam, wrapped in lambskin, providing superior comfort and breathability<br>
+                            Intuitive controls for a more elegant experience<br>
+                            Dual Microphones provide superior clarity<br>
+                            Stainless steel components in all high strain areas<br>
+                            Best-in-class signal range<br>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURED PRODUCTS -->
+    <div class="container-fluid " ><div id="box">FEATURED PRODUCTS</div>
+<div class="row" id="border-blog">
+<div class="col-md-4" id="border-product">
+    <div class="thumbnail">
+        <img src="/images/Mouse/Frozen Llama Mouse/Frozen Llama Mouse1234.jpg" alt="This contains keyboard image"  class="img-fluid">
+        <div class="border-product">
+            <h3>Frozen Llama Mouse</h3>
+            <p>$143.00</p>
+            <p>Rating: ★★★★☆ <br>
+                Availability: In Stock <br>
+                Features: ...</p>
+            <p class="mt-auto"><a href="Shop.html"><button class="btn btn-primary">Buy Now</button></a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4" id="border-product">
+  <div class="thumbnail">
+      <img src="/images/Keyboards/Ducky One 3 Fuji Hotswap/Ducky One 3 Fuji Hotswap1.jpg" alt="This contains keyboard image" class="img-fluid">
+      <div class="border-product">
+          <h3>Ducky One 3 Fuji</h3>
+          <p>$119.00</p>
+          <p>Rating: ★★★★☆ <br>
+            Availability: In Stock <br>
+            Features: ...</p>
+          <p class="mt-auto"><a href="Shop.html"><button class="btn btn-primary">Buy Now</button></a>
+      </div>
+  </div>
+</div>
+<div class="col-md-4" id="border-product">
+<div class="thumbnail">
+    <img src="/images/Headset/MW50+ On Plus/44.jpg" alt="This contains keyboard image" class="img-fluid">
+ 
+    <div class="border-product">
+        <h3>MW50+ On Plus</h3>
+        <p>$249.00</p>
+        <p>Rating: ★★★★☆ <br>
+            Availability: In Stock <br>
+            Features: ...</p>
+        <p class="mt-auto"><a href="Shop.html"><button class="btn btn-primary">Buy Now</button></a>
+    </div>
+</div>
+</div>
+</main>
+<!-- scroll up start -->
+<button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fa-solid fa-arrow-up"></i>
+</button>
+<!-- scroll up ends -->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CATEGORIES</h4>
+                <a href=""><p>Keyboards</a> <br>
+                <a href="">Mouse</a> <br>
+                <a href="">Headset</p></a>
+            </div>
+            <div class="col-md-4">
+                <h4>INFORMATION</h4>
+                <a href=""><p>About Us</a>
+                <a href=""><br>
+                <a href="">Privacy Policy</a> <br>
+                <a href="">Contact Us</p></a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/logo/Facebook_Logo.png" alt="This contains Facebook logo" height="50px"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/logo/Twitter_logo.png" alt="This contains Twitter logo" height="50px"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/logo/YouTube_logo.png" alt="This contains Youtube logo" height="50px"></a>
+                </div>
+        </div>
+    </div>
+    <p>&copy;Sparkline. All right reserved</p>
+</footer>
+    <!-- script -->
+    <script src="Headset.js"> </script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- font script -->
+    <script src="https://kit.fontawesome.com/db2451deb4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
