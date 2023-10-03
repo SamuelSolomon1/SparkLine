@@ -1,0 +1,134 @@
+               
+#navcolor{
+  /* background-color: rgba(255, 148, 148) !important; */
+  background-color: rgb(30, 32, 34) !important;
+  font-size: 190%;
+  font-family: Verdana; 
+}
+/* burger menu change color */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 98, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler{
+  border: 1px solid rgb(203, 98, 7) !important;
+}
+/* dropdown menu color */
+.dropdown-menu {
+  background-color: rgb(30, 32, 34) !important;
+  border: none;
+}
+.dropdown-item {
+  color: #fff !important;
+  font-size: 190%;
+}
+.dropdown-item:hover{
+  background-color: #000000 !important;
+}
+/* dropdown menu color ends */
+
+/* changing navbar font color */
+.nav-link{
+color: #fff !important;
+}
+/* body */
+body{
+/* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;  */
+padding-top: 69px;
+font-family: Verdana;
+background-color: #000000 !important;
+}
+/* hyperlink */
+a{
+text-decoration: none;
+color: #fff;
+}
+/* nav bar spacing */
+.nav-spacing{
+padding: 80px;
+}
+
+/* scroll up */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border: none;
+}
+/* scroll up ends */
+footer{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color:rgb(30, 32, 34);
+
+}
+/* scale down the card */
+.box-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit:scale-down;
+}
+/* button start*/
+.btn{
+  background-color: rgb(203, 98, 7) !important;
+  color: #fff !important;
+  border: none !important;
+  margin-bottom: 10px !important;
+
+}
+#btn-size{
+  width: 100%;
+  font-size: 30px;
+}
+/* button ends */
+/* FEATURED PRODUCTS starts */
+#box{
+  /* border: 2px solid red; */
+  background-color: rgb(203, 98, 7);
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 80px;
+}
+/* FEATURED PRODUCTS ends */
+
+.box-left{
+  background-color: #fff;
+  
+}
+
+.product-images img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.product-description {
+  margin-top: 20px;
+}
+.fontColor{
+  color: rgb(203, 98, 7);
+}
+.border-product{
+  color: white;
+  padding: top 20px;
+  text-align: center;
+  
+}
+.img-fluid{
+  width: 100%;
+  height: 15vw;
+  object-fit:scale-down;
+}
+
+#border-product{
+  /* background-color: rgb(203, 98, 7,.1); */
+  padding: 30px;
+}

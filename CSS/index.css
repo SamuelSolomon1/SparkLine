@@ -111,8 +111,6 @@ padding: 80px;
     color: #fff !important;
 }
 
-
-
 /* scroll up */
 #btn-back-to-top {
     position: fixed;
@@ -130,4 +128,6 @@ footer{
     background-color:rgb(30, 32, 34);
   
 }
+
+
 
