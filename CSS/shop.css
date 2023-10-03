@@ -174,7 +174,12 @@ footer{
   /* background-color: rgb(203, 98, 7); */
   /* background-image: linear-gradient(to right, rgb(248, 157, 78,0.1), rgba(203, 98, 7,1)); */
   background-image: url(https://media.tenor.com/6x4DXggx_i8AAAAM/orange-design.gif);
+  /* background-image: url(/images/Shop/keyboard\ -\ Copy.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+   */
   backdrop-filter: blur(8px);
+  /* text-align: left; */
   text-align: center;
   padding-top: 20px;
 }
