@@ -67,7 +67,7 @@ a{
     border: none;
 }
 /* SparkLine link */
-a:visited,a:active,.a:link {
+a:visited,:aactive,.a:link {
     color: white !important;
     background-color: transparent !important;
     text-decoration: none !important;
