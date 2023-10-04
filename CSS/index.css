@@ -93,7 +93,8 @@ padding: 80px;
     margin: 0;
     padding: 30px;
     border-radius: 20px;
-    font-size: 80px;
+    padding-top: 20px;
+    font-size: 60px;
 }
 .border-blog{
     color: #fff;
@@ -110,6 +111,82 @@ padding: 80px;
     background-color: rgb(203, 98, 7) !important;
     color: #fff !important;
 }
+/* Image sizing in Strawberry kb and headset GSP 370  starts*/
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-sizing {
+    width: 100%; /* Ensure the image resizes with its container */
+  }
+  
+  .image-caption {
+    position: absolute;
+    bottom: 10px; /* Adjust the vertical position as needed */
+    left: 10px; /* Adjust the horizontal position as needed */
+    background-color: rgb(203, 98, 7); /* Background color for the text */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 30px; /* Font size */
+  }
+  .image-caption112 {
+    position: absolute;
+    bottom: 10px; /* Adjust the vertical position as needed */
+    right: 10px; /* Adjust the horizontal position as needed */
+    background-color: rgb(0, 146, 10); /* Background color for the text */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 30px; /* Font size */
+  }
+
+  /* bottom  */
+ 
+  .image-caption1 {
+    position: absolute;
+    top: 10px; /* Adjust the vertical position as needed */
+    left: 10px; /* Adjust the horizontal position as needed */
+    /* background-color: rgb(203, 98, 7); Background color for the text */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 60px; /* Font size */
+    text-align: left;
+  }
+  .image-caption2 {
+    position: absolute;
+    top: 90px; /* Adjust the vertical position as needed */
+    left: 60px; /* Adjust the horizontal position as needed */
+    /* background-color: rgb(203, 98, 7); Background color for the text */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 30px; /* Font size */
+    text-align: left;
+  }
+  /* Strawberry keyboard */
+  .image-caption11 {
+    position: absolute;
+    top: 10px; /* Adjust the vertical position as needed */
+    right: 10px; /* Adjust the horizontal position as needed */
+    /* background-color: rgb(203, 98, 7); Background color for the text */
+    color: rgb(0, 146, 10); /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 60px; /* Font size */
+    text-align: right;
+    text-shadow: 2px 2px #edceed;
+  }
+  .image-caption22 {
+    position: absolute;
+    top: 90px; /* Adjust the vertical position as needed */
+    right: 60px; /* Adjust the horizontal position as needed */
+     /* background-color: rgba(249, 0, 220, 0.16); */
+     /* Background color for the text */ 
+    color: rgb(0, 146, 10); /* Text color */
+    padding: 5px 10px; /* Padding around the text */
+    font-size: 30px; /* Font size */
+    text-align: right;
+    text-shadow: 2px 2px #ffd5ff;
+  }
+/* Image sizing in Strawberry kb and headset GSP 370  ends*/
 
 /* scroll up */
 #btn-back-to-top {
