@@ -5,10 +5,10 @@
     font-family: Verdana; 
   }
   /* nav bar spacing */
-  .nav-spacing {
-    padding-left: 120px;
-    padding-right: 120px;
-  }  
+.nav-spacing {
+    padding-left: 90px;
+    padding-right: 90px;
+  } 
 .nav-link{
 color: #fff !important;
 }
