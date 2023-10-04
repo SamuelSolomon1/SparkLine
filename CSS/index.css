@@ -1,210 +1,208 @@
-
-#navcolor{
-    /* background-color: rgba(255, 148, 148) !important; */
-    background-color: rgb(30, 32, 34) !important;
-    font-size: 190%;
-    font-family: serif;
+#navcolor {
+  /* background-color: rgba(255, 148, 148) !important; */
+  background-color: rgb(30, 32, 34) !important;
+  font-size: 260%;
+  font-family: serif;
+}
+/* nav bar spacing */
+.nav-spacing {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 /* burger menu change color */
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 98, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28203, 98, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-.navbar-toggler{
-    border: 1px solid rgb(203, 98, 7) !important;
+.navbar-toggler {
+  border: 1px solid rgb(203, 98, 7) !important;
 }
 /* dropdown menu color */
 .dropdown-menu {
-    background-color: rgb(30, 32, 34) !important;
-    border: none;
+  background-color: rgb(30, 32, 34) !important;
+  border: none;
 }
 .dropdown-item {
-    color: #fff !important;
-    font-size: 190%;
+  color: #fff !important;
+  font-size: 190%;
 }
-.dropdown-item:hover{
-    background-color: #000000 !important;
+.dropdown-item:hover {
+  background-color: #000000 !important;
 }
 /* dropdown menu color ends */
 
 /* changing navbar font color */
-.nav-link{
-color: #fff !important;
+.nav-link {
+  color: #fff !important;
 }
 /* body */
-body{
-/* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
+body {
+  /* background-image: url(https://i.makeagif.com/media/4-08-2017/tx3DrJ.gif);
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;  */
-padding-top: 68px;
-font-family: serif;
-background-color: #000000 !important;
+  padding-top: 68px;
+  font-family: serif;
+  background-color: #000000 !important;
 }
 /* hyperlink */
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
-/* nav bar spacing */
-.nav-spacing{
-padding: 80px;
-}
+
 /* box-border products start */
-#box-border{
-    /* border: 2px solid red; */
-    text-align: center;
-    background-color: black;
-    color: #fff;
-    margin: 0;
-    padding: 30px;
-    border-radius: 20px;
+#box-border {
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
 }
 /* box-products */
-.box-products{
-    /* border: 2px solid red; */
-    padding: 30px;
+.box-products {
+  /* border: 2px solid red; */
+  padding: 30px;
 }
- /* box-border hover */
- #box-border:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: rgb(203, 98, 7);
-        transition: 0.2s;
-        transform: scale(1.03);
-  }
-#box-border2{
-    /* border: 2px solid red; */
-    text-align: center;
-    background-color: black;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+/* box-border hover */
+#box-border:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(203, 98, 7);
+  transition: 0.2s;
+  transform: scale(1.03);
 }
-.img-sizing{
-    width: 1500px; 
-    height: 1121px;
-    object-fit: cover;
+#box-border2 {
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.img-sizing {
+  width: 1500px;
+  height: 1121px;
+  object-fit: cover;
 }
 /* box-border products end */
 /* blog post */
-#box{
-    /* border: 2px solid red; */
-    text-align: center;
-    background-color: black;
-    color: #fff;
-    margin: 0;
-    padding: 30px;
-    border-radius: 20px;
-    padding-top: 20px;
-    font-size: 60px;
+#box {
+  /* border: 2px solid red; */
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 20px;
+  font-size: 60px;
 }
-.border-blog{
-    color: #fff;
+.border-blog {
+  color: #fff;
 }
 /* border-blog */
-#border-blog{
-    color: #fff;
-    /* border: 2px solid red; */
-    padding: 20px;
+#border-blog {
+  color: #fff;
+  /* border: 2px solid red; */
+  padding: 20px;
 }
 
 /* blog button */
-.btn{
-    background-color: rgb(203, 98, 7) !important;
-    color: #fff !important;
+.btn {
+  background-color: rgb(203, 98, 7) !important;
+  color: #fff !important;
 }
 /* Image sizing in Strawberry kb and headset GSP 370  starts*/
 .image-container {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .img-sizing {
-    width: 100%; /* Ensure the image resizes with its container */
-  }
-  
-  .image-caption {
-    position: absolute;
-    bottom: 10px; /* Adjust the vertical position as needed */
-    left: 10px; /* Adjust the horizontal position as needed */
-    background-color: rgb(203, 98, 7); /* Background color for the text */
-    color: white; /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 30px; /* Font size */
-  }
-  .image-caption112 {
-    position: absolute;
-    bottom: 10px; /* Adjust the vertical position as needed */
-    right: 10px; /* Adjust the horizontal position as needed */
-    background-color: rgb(0, 146, 10); /* Background color for the text */
-    color: white; /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 30px; /* Font size */
-  }
+  position: relative;
+  overflow: hidden;
+}
 
-  /* bottom  */
- 
-  .image-caption1 {
-    position: absolute;
-    top: 10px; /* Adjust the vertical position as needed */
-    left: 10px; /* Adjust the horizontal position as needed */
-    /* background-color: rgb(203, 98, 7); Background color for the text */
-    color: white; /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 60px; /* Font size */
-    text-align: left;
-  }
-  .image-caption2 {
-    position: absolute;
-    top: 90px; /* Adjust the vertical position as needed */
-    left: 60px; /* Adjust the horizontal position as needed */
-    /* background-color: rgb(203, 98, 7); Background color for the text */
-    color: white; /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 30px; /* Font size */
-    text-align: left;
-  }
-  /* Strawberry keyboard */
-  .image-caption11 {
-    position: absolute;
-    top: 10px; /* Adjust the vertical position as needed */
-    right: 10px; /* Adjust the horizontal position as needed */
-    /* background-color: rgb(203, 98, 7); Background color for the text */
-    color: rgb(0, 146, 10); /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 60px; /* Font size */
-    text-align: right;
-    text-shadow: 2px 2px #edceed;
-  }
-  .image-caption22 {
-    position: absolute;
-    top: 90px; /* Adjust the vertical position as needed */
-    right: 60px; /* Adjust the horizontal position as needed */
-     /* background-color: rgba(249, 0, 220, 0.16); */
-     /* Background color for the text */ 
-    color: rgb(0, 146, 10); /* Text color */
-    padding: 5px 10px; /* Padding around the text */
-    font-size: 30px; /* Font size */
-    text-align: right;
-    text-shadow: 2px 2px #ffd5ff;
-  }
+.img-sizing {
+  width: 100%; /* Ensure the image resizes with its container */
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10px; /* Adjust the vertical position as needed */
+  left: 10px; /* Adjust the horizontal position as needed */
+  background-color: rgb(203, 98, 7); /* Background color for the text */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 30px; /* Font size */
+}
+.image-caption112 {
+  position: absolute;
+  bottom: 10px; /* Adjust the vertical position as needed */
+  right: 10px; /* Adjust the horizontal position as needed */
+  background-color: rgb(0, 146, 10); /* Background color for the text */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 30px; /* Font size */
+}
+
+/* bottom  */
+
+.image-caption1 {
+  position: absolute;
+  top: 10px; /* Adjust the vertical position as needed */
+  left: 10px; /* Adjust the horizontal position as needed */
+  /* background-color: rgb(203, 98, 7); Background color for the text */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 60px; /* Font size */
+  text-align: left;
+}
+.image-caption2 {
+  position: absolute;
+  top: 90px; /* Adjust the vertical position as needed */
+  left: 60px; /* Adjust the horizontal position as needed */
+  /* background-color: rgb(203, 98, 7); Background color for the text */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 30px; /* Font size */
+  text-align: left;
+}
+/* Strawberry keyboard */
+.image-caption11 {
+  position: absolute;
+  top: 10px; /* Adjust the vertical position as needed */
+  right: 10px; /* Adjust the horizontal position as needed */
+  /* background-color: rgb(203, 98, 7); Background color for the text */
+  color: rgb(0, 146, 10); /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 60px; /* Font size */
+  text-align: right;
+  text-shadow: 2px 2px #edceed;
+}
+.image-caption22 {
+  position: absolute;
+  top: 90px; /* Adjust the vertical position as needed */
+  right: 60px; /* Adjust the horizontal position as needed */
+  /* background-color: rgba(249, 0, 220, 0.16); */
+  /* Background color for the text */
+  color: rgb(0, 146, 10); /* Text color */
+  padding: 5px 10px; /* Padding around the text */
+  font-size: 30px; /* Font size */
+  text-align: right;
+  text-shadow: 2px 2px #ffd5ff;
+}
 /* Image sizing in Strawberry kb and headset GSP 370  ends*/
 
 /* scroll up */
 #btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    border: none;
-  }
-/* scroll up ends */
-footer{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    color: #fff;
-    background-color:rgb(30, 32, 34);
-  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border: none;
 }
-
-
-
+/* scroll up ends */
+footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: rgb(30, 32, 34);
+}
