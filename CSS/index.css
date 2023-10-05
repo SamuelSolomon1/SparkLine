@@ -131,6 +131,7 @@ a {
   color: white; /* Text color */
   padding: 5px 10px; /* Padding around the text */
   font-size: 30px; /* Font size */
+  border-radius: 10px;
 }
 .image-caption112 {
   position: absolute;
@@ -140,6 +141,7 @@ a {
   color: white; /* Text color */
   padding: 5px 10px; /* Padding around the text */
   font-size: 30px; /* Font size */
+  border-radius: 10px;
 }
 
 /* bottom  */
